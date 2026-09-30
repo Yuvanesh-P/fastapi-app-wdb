@@ -6,7 +6,7 @@ from schemas import (
 )
 
 from fastapi import FastAPI, Depends, HTTPException
-from SQLAlchemy.orm import Session
+from sqlalchemy.orm import Session
 
 import models
 from database import Base, engine, get_db
